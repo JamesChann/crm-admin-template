@@ -1,0 +1,52 @@
+.crm-button {
+  display: inline-block;
+
+  &--search {
+    color: #fff;
+    background-color: #5e83f8;
+    border-color: #5e83f8;
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    &:focus,
+    &:hover {
+      background: #82a0ff;
+      border-color: #82a0ff;
+      color: #fff;
+    }
+  }
+
+  &--import {
+    color: #fff;
+    background-color: #5e83f8;
+    border-color: #5e83f8;
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    &:focus, &:hover {
+      background: #82a0ff;
+      border-color: #82a0ff;
+      color: #fff;
+    }
+  }
+
+  &--export {
+    color: #fff;
+    background-color: #5e83f8;
+    border-color: #5e83f8;
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+
+    &:focus,
+    &:hover {
+      background: #82a0ff;
+      border-color: #82a0ff;
+      color: #fff;
+    }
+  }
+
+  &__icon {
+    margin-right: 5px;
+  }
+}

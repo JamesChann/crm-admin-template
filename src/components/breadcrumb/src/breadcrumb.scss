@@ -1,0 +1,25 @@
+.crm-breadcrumb {
+  padding-bottom: 15px;
+  padding-left: 5px;
+  border-bottom: 1px solid #d6d6d6;
+
+  &__app.el-breadcrumb {
+    display: inline-block;
+    font-size: 16px;
+
+    .el-breadcrumb__inner,
+    .el-breadcrumb__inner a {
+      font-weight: 700 !important;
+    }
+
+    .el-breadcrumb__separator {
+      color: #303133;
+    }
+
+    .no-redirect {
+      color: #303133;
+      cursor: text;
+      font-size: 14px;
+    }
+  }
+}

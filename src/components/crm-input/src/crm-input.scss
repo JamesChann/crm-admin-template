@@ -1,0 +1,15 @@
+.crm-input {
+  // input size type
+  &--small {
+    .el-input__inner {
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+  &--normal {
+    .el-input__inner {
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+}

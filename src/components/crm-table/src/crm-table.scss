@@ -1,0 +1,49 @@
+.crm-table {
+  width: 100%;
+}
+
+.table-wrap {
+  .content-wrap {
+    overflow: hidden;
+
+    ::v-deep .el-table th {
+      background-color: #f6f5fa;
+    }
+
+    // 表格
+    .el-table td {
+      padding: 12px 0;
+      border-bottom: 0 !important;
+    }
+
+    .operation-wrap {
+      background: #fff;
+      border-top: 1px solid #e0e0e0;
+      padding: 18px 15px 18px 15px;
+    }
+
+    .page-wrap {
+      float: right;
+      padding: 0 15px;
+      margin-top: 18px;
+
+      ::v-deep button:disabled {
+        background: #f3f4f6;
+      }
+
+      ::v-deep .el-pager {
+        li {
+          background: #f3f4f6;
+        }
+      }
+
+      ::v-deep .btn-prev {
+        background: #f3f4f6;
+      }
+
+      ::v-deep .btn-next {
+        background: #f3f4f6;
+      }
+    }
+  }
+}
